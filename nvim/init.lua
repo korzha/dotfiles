@@ -23,7 +23,7 @@ vim.opt.autoread = true -- auto-reload changes if outside of neovim
 vim.opt.autowrite = false -- do not auto-save
 
 vim.opt.errorbells = false -- no error sounds
---vim.opt.clipboard:append("unnamedplus") -- use system clipboard
+vim.opt.clipboard:append("unnamedplus") -- use system clipboard
 
 vim.opt.tabstop = 2 -- tabwidth
 vim.opt.shiftwidth = 2 -- indent width
