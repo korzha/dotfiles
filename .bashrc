@@ -1,3 +1,6 @@
+export COLORTERM="truecolor"
+export TERM="xterm-256color"
+
 test -s ~/.alias && . ~/.alias || true
 
 export EDITOR="nvim"
