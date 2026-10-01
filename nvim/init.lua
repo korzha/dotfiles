@@ -11,6 +11,7 @@ vim.opt.relativenumber = true
 vim.opt.signcolumn = "yes:1"
 vim.opt.showmatch = true -- highlights matching brackets
 
+vim.opt.autoread = true -- enable auto-reading files modified outside Neovim
 vim.opt.backup = false -- do not create a backup file
 vim.opt.writebackup = false -- do not write to a backup file
 vim.opt.swapfile = false -- do not create a swapfile
